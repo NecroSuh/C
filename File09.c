@@ -21,6 +21,6 @@ int main() {
 	fp = fopen("friend.bin", "rb");
 	fread((void*)&myfren2, sizeof(myfren2), 1, fp);
 	printf("%s %c %d\n", myfren2.name, myfren2.sex, myfren2.age);
-	fclose(fp);
+	fclose(fp); 
 	return 0;
 }
